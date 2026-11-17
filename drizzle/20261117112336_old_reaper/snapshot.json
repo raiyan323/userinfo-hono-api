@@ -1,0 +1,387 @@
+{
+  "type": "diff",
+  "version": "9",
+  "dialect": "postgres",
+  "id": "8a331b26-e9be-4d87-ad70-2f19284bebad",
+  "prevIds": [
+    "f977b68a-d48a-4e42-904f-655fd7f6649a"
+  ],
+  "footprints": [
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "users",
+        "dateOfBirth"
+      ],
+      "writes": [
+        "s|col|public.users.dateOfBirth",
+        "n|col|public.users.dateOfBirth",
+        "e|col|public.users.dateOfBirth"
+      ],
+      "reads": [
+        "n|tbl|public.users",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "users",
+        "city"
+      ],
+      "writes": [
+        "s|col|public.users.city",
+        "n|col|public.users.city",
+        "e|col|public.users.city"
+      ],
+      "reads": [
+        "n|tbl|public.users",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "users",
+        "createdAt"
+      ],
+      "writes": [
+        "s|col|public.users.createdAt",
+        "n|col|public.users.createdAt",
+        "e|col|public.users.createdAt"
+      ],
+      "reads": [
+        "n|tbl|public.users",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "add_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "users",
+        "updatedAt"
+      ],
+      "writes": [
+        "s|col|public.users.updatedAt",
+        "n|col|public.users.updatedAt",
+        "e|col|public.users.updatedAt"
+      ],
+      "reads": [
+        "n|tbl|public.users",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "drop_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "users",
+        "City"
+      ],
+      "writes": [
+        "s|col|public.users.City",
+        "n|col|public.users.City",
+        "e|col|public.users.City"
+      ],
+      "reads": [
+        "n|tbl|public.users",
+        "n|sch|public"
+      ]
+    },
+    {
+      "statementType": "alter_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "users",
+        "nid"
+      ],
+      "writes": [
+        "s|colprop|public.users.nid.type",
+        "s|colprop|public.users.nid.default"
+      ],
+      "reads": [
+        "n|tbl|public.users",
+        "n|sch|public",
+        "n|col|public.users.nid"
+      ],
+      "sqlHash": "b0ddbd323969f4d8"
+    },
+    {
+      "statementType": "alter_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "users",
+        "phoneNumber"
+      ],
+      "writes": [
+        "s|colprop|public.users.phoneNumber.type",
+        "s|colprop|public.users.phoneNumber.default"
+      ],
+      "reads": [
+        "n|tbl|public.users",
+        "n|sch|public",
+        "n|col|public.users.phoneNumber"
+      ],
+      "sqlHash": "c2c75e96bfc272ee"
+    },
+    {
+      "statementType": "alter_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "users",
+        "country"
+      ],
+      "writes": [
+        "s|colprop|public.users.country.type",
+        "s|colprop|public.users.country.default"
+      ],
+      "reads": [
+        "n|tbl|public.users",
+        "n|sch|public",
+        "n|col|public.users.country"
+      ],
+      "sqlHash": "3a408302a31dfe83"
+    },
+    {
+      "statementType": "alter_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "users",
+        "imgurl"
+      ],
+      "writes": [
+        "s|colprop|public.users.imgurl.type",
+        "s|colprop|public.users.imgurl.default"
+      ],
+      "reads": [
+        "n|tbl|public.users",
+        "n|sch|public",
+        "n|col|public.users.imgurl"
+      ],
+      "sqlHash": "02de3846b1dcca6d"
+    },
+    {
+      "statementType": "alter_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "users",
+        "address"
+      ],
+      "writes": [
+        "s|colprop|public.users.address.type",
+        "s|colprop|public.users.address.default"
+      ],
+      "reads": [
+        "n|tbl|public.users",
+        "n|sch|public",
+        "n|col|public.users.address"
+      ],
+      "sqlHash": "1382e3b938ba4ecd"
+    },
+    {
+      "statementType": "alter_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "users",
+        "currentAddress"
+      ],
+      "writes": [
+        "s|colprop|public.users.currentAddress.type",
+        "s|colprop|public.users.currentAddress.default"
+      ],
+      "reads": [
+        "n|tbl|public.users",
+        "n|sch|public",
+        "n|col|public.users.currentAddress"
+      ],
+      "sqlHash": "ffbf755cffb42a4a"
+    },
+    {
+      "statementType": "alter_column",
+      "statementTarget": [
+        "column",
+        "public",
+        "users",
+        "bloodGroup"
+      ],
+      "writes": [
+        "s|colprop|public.users.bloodGroup.type",
+        "s|colprop|public.users.bloodGroup.default"
+      ],
+      "reads": [
+        "n|tbl|public.users",
+        "n|sch|public",
+        "n|col|public.users.bloodGroup"
+      ],
+      "sqlHash": "58abe17c26e2cd74"
+    },
+    {
+      "statementType": "add_unique",
+      "statementTarget": [
+        "table",
+        "public",
+        "users"
+      ],
+      "writes": [
+        "s|uq|public.users.users_nid_key",
+        "n|uq|public.users.users_nid_key",
+        "e|uq|public.users.users_nid_key",
+        "n|con|public.users.users_nid_key",
+        "n|rel|public.users_nid_key"
+      ],
+      "reads": [
+        "n|tbl|public.users",
+        "n|sch|public",
+        "n|col|public.users.nid"
+      ]
+    }
+  ],
+  "deltas": [
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "users",
+        "name": "dateOfBirth",
+        "type": "date",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "users",
+        "name": "city",
+        "type": "varchar(100)",
+        "typeSchema": null,
+        "notNull": false,
+        "dimensions": 0,
+        "default": null,
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "users",
+        "name": "createdAt",
+        "type": "timestamp",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "now()",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "users",
+        "name": "updatedAt",
+        "type": "timestamp",
+        "typeSchema": null,
+        "notNull": true,
+        "dimensions": 0,
+        "default": "now()",
+        "generated": null,
+        "identity": null,
+        "entityType": "columns"
+      }
+    },
+    {
+      "op": "create",
+      "row": {
+        "schema": "public",
+        "table": "users",
+        "name": "users_nid_key",
+        "nameExplicit": false,
+        "columns": [
+          "nid"
+        ],
+        "nullsNotDistinct": false,
+        "entityType": "uniques"
+      }
+    },
+    {
+      "op": "drop",
+      "key": "columns\u0000[\"public\",\"users\",\"City\"]"
+    },
+    {
+      "op": "alter",
+      "key": "columns\u0000[\"public\",\"users\",\"nid\"]",
+      "set": {
+        "type": "varchar(20)"
+      }
+    },
+    {
+      "op": "alter",
+      "key": "columns\u0000[\"public\",\"users\",\"phoneNumber\"]",
+      "set": {
+        "type": "varchar(20)"
+      }
+    },
+    {
+      "op": "alter",
+      "key": "columns\u0000[\"public\",\"users\",\"country\"]",
+      "set": {
+        "type": "varchar(100)"
+      }
+    },
+    {
+      "op": "alter",
+      "key": "columns\u0000[\"public\",\"users\",\"imgurl\"]",
+      "set": {
+        "type": "varchar(500)"
+      }
+    },
+    {
+      "op": "alter",
+      "key": "columns\u0000[\"public\",\"users\",\"address\"]",
+      "set": {
+        "type": "varchar(500)"
+      }
+    },
+    {
+      "op": "alter",
+      "key": "columns\u0000[\"public\",\"users\",\"currentAddress\"]",
+      "set": {
+        "type": "varchar(500)"
+      }
+    },
+    {
+      "op": "alter",
+      "key": "columns\u0000[\"public\",\"users\",\"bloodGroup\"]",
+      "set": {
+        "type": "varchar(5)"
+      }
+    }
+  ]
+}
